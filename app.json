@@ -12,7 +12,9 @@
       "backgroundColor": "#ffffff"
     },
     "scheme": "sora",
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "package": "com.native.aora"
@@ -27,6 +29,17 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["expo-router", "expo-font"]
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a567f190-1782-4cdc-82d0-40552d63d10f"
+      }
+    }
   }
 }
